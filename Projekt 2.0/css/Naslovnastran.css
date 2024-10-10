@@ -1,0 +1,49 @@
+body {
+    background-image: url('slike/ozadje1.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+div {
+    margin-top: 200px;
+    margin-left: 750px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    background-color: lightblue;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: darkgreen;
+}
+
+button {
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: large;   
+}
+
+button:hover{
+    text-align: center;
+    background-color: chartreuse;
+    font-size: larger;
+}
+
+button:active{
+    text-align: center;
+    background-color: black;
+    color:white;
+    font-style:oblique;
+}
